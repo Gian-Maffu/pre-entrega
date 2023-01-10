@@ -1,0 +1,408 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image:url("../assets/img/fondo-hoja-marihuana-realista_23-2148770966.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+h1{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+p{
+    color: white;
+    font-size: 20px;
+    font-family: 'Questrial', sans-serif;
+}
+h2{
+    display: inline-block;
+    padding: 10px 50px;
+    height: 150px;
+    width: 300px;
+    box-sizing: border border-box;
+    text-align: center;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+}
+h3{
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+header{
+    background-color: #a6e1ba36;
+}
+.navBar{
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    justify-content: flex-end;
+    margin-right: 15px;
+}
+
+
+.navBar li a{
+    font-size: 20px;
+    text-decoration:none;
+    color: white;
+    font-family: 'Questrial', sans-serif;
+}
+
+/* Index grids */
+.grid-container{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: 200px auto auto 200px;
+}
+.grid-container > *{
+    text-align: center;
+    
+}
+
+header, footer, main{
+    grid-column: 1/ span 2;
+}
+
+.logoDv{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    }
+    header{
+        background-color: #a6e1ba36;
+    }
+    .navBar{
+        display: flex;
+        list-style: none;
+        gap: 20px;
+        justify-content: flex-end;
+        margin-right: 15px;
+    }
+    
+    
+    .navBar li a{
+        font-size: 20px;
+        text-decoration:none;
+        color: white;
+        font-family: 'Questrial', sans-serif;
+    }
+    .parrafoIndex1{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: 'Questrial', sans-serif;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+    
+    .item2{
+        margin-right: 100px;
+        padding-bottom: 100px;
+    }
+/* fin de index */
+.pAccesorios{
+    color: white;
+    font-family: 'Questrial', sans-serif;
+    font-size: 30px;
+    padding: 10px 50px;
+    margin-bottom: 60px;
+    text-align: center;
+
+}
+
+.bienvenidoDv{
+    width: 100%;
+    height: 300px;
+}
+
+.puntosDeVenta{
+    width: 100%;
+    height: 200px;
+}
+/* logo */
+.logoDv{
+display: flex;
+justify-content: center;
+margin-top: 150px;
+margin-bottom: 100px;
+}
+
+/* accesorios */
+.tituloTips{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.sectionTienda{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.section-pica{
+display: flex;
+flex-direction: row;
+width: 70%;
+background-color: rgba(184, 238, 184, 0.637);
+justify-content: space-around;
+}
+
+.section-tips{
+display: flex;
+flex-direction: row;
+width: 70%;
+background-color: rgba(184, 238, 184, 0.637);
+justify-content: space-around;
+    }
+
+
+.pica{
+border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.tips{
+border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+.cards-info p{
+    border: 2px solid rgb(154, 234, 32);
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: rgb(13, 148, 60);
+
+}
+
+.imgF{
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+}
+
+
+/* limpiadores */
+.tiendaLimpiadores{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.parrafoL{
+    color: white;
+    font-size: 50px;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+.dobleNelson{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    background-color: rgba(184, 238, 184, 0.637);
+    justify-content: space-around;
+        }
+
+
+.imgMeme{
+    width: 300px;
+    height: 250px;
+
+}
+
+.imgSolucion{
+    width: 300px;
+    height: 250px;
+}
+.imgL{
+    width: 200px;
+    height: 200px;
+}
+
+.limpiador{
+    border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.noTe p{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+.noTe img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.peroD p{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+}
+
+
+.peroD img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.subtih2{
+    color: white;
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: 'Questrial', sans-serif;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px
+}
+/* Footer */
+.footer {
+        width: 100%;
+        height: 200px;
+        background-color: rgba(149, 241, 149, 0.463);
+}
+
+.redesFooter{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.footer-Texto h3, .footer-Texto h4{
+    width: 100%;
+    color: white;
+    text-align:center;
+    font-weight: normal;
+    font-size: 30px;
+    font-family: 'Questrial', sans-serif;
+    margin-top: auto;
+}
+.fb-footer{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+
+/* puntos de venta */
+
+.grid-containerP{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: auto auto;
+    padding-bottom: 100px;
+    padding-top: 200px;
+    place-items: center;
+}
+.link{
+    font-family: 'Questrial', sans-serif;
+    color: white;
+    text-align: center;
+    display: block;
+}
+/* Contacto */
+.formDatos{
+    width: 400px;
+    background-color: greenyellow;
+    padding:30px;
+    margin:auto;
+    margin-bottom: 100px;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Questrial', sans-serif;
+    color:white;
+    box-shadow: 7px 13px 37px rgb(6, 40, 3);
+}
+
+.formDatos h4{
+    font-size: 22px;
+    font-family: 'Questrial', sans-serif;
+    margin-bottom: 20px;
+    margin-bottom: 20px;
+    color: white;
+
+}
+.controls{
+    width: 100%;
+    background-color: lightgreen;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #11ba68;
+    font-family: 'Questrial', sans-serif;
+    font: size 18px;
+    border-radius: 1rem;
+}
+.Comentario{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    font-family: 'Questrial', sans-serif;
+    font: size 18px;
+    border-radius: 1rem;
+    background-color: #58c17b;
+}
+
+.boton{
+    width: 100%;
+    background: #58c17b;
+    border: none;
+    padding: 12px;
+    color: white;
+    margin:16px 0;
+    font-size: 16px;
+    border-radius: 1rem;
+
+}
+/* responsive */
+@media all and (max-width:320px){
+    .navBar{
+        flex-direction: column;
+        align-items: center;
+    }
+    article{
+        grid-column: 1/ span 2;
+    }
+    .grid-container{
+        grid-template-rows: 200px auto auto auto 200px;
+    }
+    .item2{
+        padding-top: 20px;
+        margin-left: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
