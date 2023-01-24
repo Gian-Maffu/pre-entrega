@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: rgba(149, 241, 149, 0.463);
+}
+
+.redesFooter{
+width: 100%;
+height: 100px;
+display: flex;
+flex-flow: row;
+justify-content: center;
+align-items: center;
+gap: 15px;
+}
+
+.footer-Texto h3, .footer-Texto h4{
+width: 100%;
+color: white;
+text-align:center;
+font-weight: normal;
+font-size: 30px;
+font-family: $tipografia-principal;
+margin-top: auto;
+}
+.fb-footer{
+width: 50px;
+height: 50px;
+justify-content: center;
+}

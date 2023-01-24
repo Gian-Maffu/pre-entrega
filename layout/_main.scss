@@ -1,0 +1,293 @@
+.logoDv{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 100px;
+    padding-top: 100px;
+    }
+    /*>>>>>> Contacto <<<<<*/
+    .formDatos{
+        width: 400px;
+        background-color: greenyellow;
+        padding:30px;
+        margin:auto;
+        margin-bottom: 100px;
+        margin-top: 100px;
+        border-radius: 4px;
+        font-family: $tipografia-principal;
+        color:white;
+        box-shadow: 7px 13px 37px rgb(6, 40, 3);
+    }
+
+    .formDatos h4{
+        font-size: 22px;
+        font-family: $tipografia-principal;
+        margin-bottom: 20px;
+        margin-bottom: 20px;
+        color: white;
+
+    }
+    .controls{
+        width: 100%;
+        background-color: lightgreen;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        border: 1px solid #11ba68;
+        font-family: $tipografia-principal;
+        font-size:  18px;
+        border-radius: 1rem;
+    }
+    .Comentario{
+        width: 100%;
+        padding: 10px;
+        border-radius: 4px;
+        margin-bottom: 16px;
+        font-family: $tipografia-principal;
+            font: size 18px;
+                border-radius: 1rem;
+                background-color: #58c17b;
+    }
+
+    .boton{
+        width: 100%;
+        background: #58c17b;
+        border: none;
+        padding: 12px;
+        color: white;
+        margin:16px 0;
+        font-size: 16px;
+        border-radius: 1rem;
+
+    }
+
+    .parrafoIndex1{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: $tipografia-principal;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+
+    .item2{
+        justify-content: center;
+    }
+
+    // limpiadores
+
+    .h1{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: $tipografia-principal;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+
+    .tiendaLimpiadores{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        h2{
+            color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: $tipografia-principal;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+        }
+    }
+
+    .parrafoL{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        text-align: center;
+    }
+
+    .dobleNelson{
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        background-color: rgba(184, 238, 184, 0.637);
+        justify-content: space-around;
+        border-radius: 40px;
+            }
+
+
+    .imgMeme{
+        width: 300px;
+        height: 250px;
+
+    }
+
+    .imgSolucion{
+        width: 300px;
+        height: 250px;
+    }
+    .imgL{
+        width: 200px;
+        height: 200px;
+    }
+
+    .limpiador{
+        border: 2px solid black;
+        border-radius: 10px;
+        overflow: hidden;
+        font-family: $tipografia-principal;
+
+    }
+
+    .noTe p{
+        @include texto;
+        padding-bottom: 20px;
+    }
+    .noTe img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    .peroD p{
+        @include texto;
+        padding-bottom: 20px;
+        padding-top: 20px;
+    }
+
+
+    .peroD img{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .subtih2{
+        @include texto;
+        margin-top: 40px;
+        margin-bottom: 40px
+    }
+    .tituloTips{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+    .videoL1{
+        justify-content: space-between;
+    }
+    .cards-info{
+
+        p{
+        font-size: 15px;
+        border: 2px solid rgb(154, 234, 32);
+        border-radius: 10px;
+        overflow: hidden;
+        background-color: rgb(13, 148, 60);
+        font-family: $tipografia-principal;
+        text-align: center;
+        }
+    }
+
+// accesorios //
+.accesorios-h1{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family: $tipografia-principal;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+}
+.pAccesorios{
+        p{
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+        font-family:$tipografia-principal;
+        text-align: center;
+        margin-left: 100px;
+        margin-right: 40px;
+        padding-bottom: 40px;
+    }
+}
+.sectionTienda{
+display: flex;
+flex-direction: column;
+align-items: center;
+width: 100%;
+margin-top: 100px;
+margin-bottom: 100px;
+}
+.section-pica{
+display: flex;
+flex-direction: row;
+width: 70%;
+background-color: rgba(184, 238, 184, 0.637);
+justify-content: space-around;
+border-radius: 20px;
+font-family: $tipografia-principal;
+
+}
+
+.section-tips{
+display: flex;
+flex-direction: row;
+width: 70%;
+background-color: rgba(184, 238, 184, 0.637);
+justify-content: space-around;
+border-radius: 20px;
+font-family: $tipografia-principal;
+    }
+
+
+.pica{
+border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+}
+
+.tips{
+border: 2px solid black;
+border-radius: 10px;
+overflow: hidden;
+
+}
+
+
+.imgF{
+    width: 160px;
+    height: 160px;
+    justify-content: center;
+}
+
+.tips-h2{
+    @include texto;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+.pica-h2{
+    @include texto;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+
+// contacto//
+
+.contacto-h1{
+    @include texto;
+    margin-left: 100px;
+    margin-right: 40px;
+    padding-bottom: 40px;
+}
+// puntos de venta //
+
