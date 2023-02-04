@@ -1,5 +1,6 @@
-@media all and (max-width:320px){
+@media all and (max-width:428px){
     .navBar{
+        background-color: #06411ad2;
         flex-direction: column;
         align-items: center;
     }
@@ -9,11 +10,130 @@
     .grid-container{
         grid-template-rows: 200px auto auto auto 200px;
     }
-    .item2{
-        padding-top: 20px;
-        margin-left: 40px;
-        justify-content: center;
-        align-items: center;
+    .parrafoIndex1{
+    flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+        }
+    // .logoImg{
+    //     width: 12rem;
+    // }
+    p.texto{
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+
     }
-    
-}
+    .videoLink{
+        width: auto;
+        height: auto;
+    }
+    .dobleNelson{
+        flex-direction:column;
+    }
+    .section-pica{
+        flex-direction: column;
+    }
+    .section-tips{
+        flex-direction: column;
+    }
+    .formDatos{
+        width: 100%;
+    }
+    p.textoR{
+        flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    h1.subtituloH1{
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        margin-right: 70px;
+    }
+    h2.subtituloH{
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        margin-right: 100px;
+    }
+    .subtih2{
+        flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 20px;
+    margin-right: 20px;
+    }
+    h1.contacto-h1{
+        flex-wrap: wrap;
+    font-size: 25px;
+    text-align: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    }
+    h2.tituloTips{
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 70px;
+    }
+    // puntos de ventas//
+    .parrafoP{
+        flex-wrap: wrap;
+    font-size: 10px;
+    text-align: center;
+    }
+    footer{
+        flex-wrap: wrap;
+        width: 100%;
+        }
+    }
+    @media all and (max-width:360px){
+        .navBar{
+            background-color: #06411ad2;
+            flex-direction: column;
+            align-items: center;
+        }
+        article{
+            grid-column: 1/ span 2;
+        }
+        .grid-container{
+            grid-template-rows: 200px auto auto auto 200px;
+        }
+        .parrafoIndex1{
+        flex-wrap: wrap;
+        font-size: 25px;
+        text-align: center;
+            }
+        // .logoImg{
+        //     width: 12rem;
+        // }
+        .videoLink{
+            width: auto;
+            height: auto;
+        }
+        .dobleNelson{
+            flex-direction:column;
+        }
+        .section-pica{
+            flex-direction: column;
+        }
+        .section-tips{
+            flex-direction: column;
+        }
+        .formDatos{
+            width: 100%;
+        }
+        footer{
+            flex-wrap: wrap;
+            width: 100%;
+            }
+    }

@@ -4,6 +4,9 @@
     padding-bottom: 100px;
     padding-top: 100px;
     }
+    .logoImg{
+        width: 50%;
+    }
     /*>>>>>> Contacto <<<<<*/
     .formDatos{
         width: 400px;
@@ -66,13 +69,14 @@
         font-weight: bolder;
         font-family: $tipografia-principal;
         text-align: center;
-        margin-left: 100px;
+        margin-left: 40px;
         margin-right: 40px;
         padding-bottom: 40px;
     }
 
     .item2{
         justify-content: center;
+        padding-bottom: 60px;
     }
 
     // limpiadores
@@ -291,3 +295,10 @@ overflow: hidden;
 }
 // puntos de venta //
 
+.imgPv{
+    margin: auto;
+    display: block;
+}
+.grow{
+    padding-bottom: 40px;
+}
